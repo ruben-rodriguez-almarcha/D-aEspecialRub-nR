@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Mi primera página HTML </title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+	
+	<style>
+*{
+Margin: 0;
+Padding: 0;
+Box-sizing: border-box;
+}
+
+Body {
+Font-family: Montserrat, sans-serif;
+Line-height: 1.6;
+Text-align: center;
+}
+
+Header {
+Background: #005f9a;
+Color: #ffffff;
+Padding: 20px;
+Text-align: center;
+}
+
+Header h1 {
+Margin-bottom: 10px;
+}
+
+Nav ul {
+List-style: none;
+Display: flex;
+Gap: 15px;
+}
+
+Nav a: hover {
+Text-decoration: underline;
+}
+
+Celebracion {
+Padding: 40px;
+Background: #f9fafb;
+Text-align: center;
+Font-size: 2rem;
+Margin-bottom: 15px;
+Color: #222;
+}
+
+#celebracion h2 {
+    Margin-top: 40px;
+    text-align: center;
+}
+
+#celebracion p {
+    max-width: 900px;
+    margin: 0 auto;
+    Margin-bottom: 20px;
+    text-align: center;
+}
+
+img {
+Width: 900px;
+Object-fit: cover;
+Border-radius: 8px;
+Box-shadow: 0 4px 8px rgba(0,0,0,0.5)
+}
+
+#Seccion1 {
+Background: #e6f2e4;
+Color: #1d1d1b;
+Margin-top: 80px;
+Padding: 40px;
+}
+
+#Seccion1 h2 {
+    text-align: center;
+}
+
+
+#Seccion1 p {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#Seccion2 {
+Background: #fff3e6;
+Color: #1d1d1b;
+Padding: 40px;
+}
+
+#Seccion2 p {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+form {
+    max-width: 900px;
+    margin: 25px auto;
+}
+
+#Seccion3 {
+Background: #f8f7f8;
+Padding: 10px;
+}
+
+
+Footer{
+background: #005f9a;
+color: #fff;
+text-align: center;
+Padding-top: 25px;
+Padding-bottom: 40px;
+}
+
+
+
+	</style>
+	</head>
+
+	<body>
+		<header>
+		<h1>26 de septiembre: Día Europeo de las Lenguas </h1>
+		<nav>
+			<ul>
+			</ul>
+		</nav>
+		</header>
+
+<section id="celebracion">
+<h2>Celebración</h2>
+<p> El Día Europeo de las Lenguas, instaurado en 2001 por el Consejo de Europa, se celebra cada 26 de septiembre con el objetivo de promover el aprendizaje de idiomas y sensibilizar sobre la riqueza cultural de nuestro continente. La fecha nos invita a reflexionar sobre la importancia de la comunicación en un mundo globalizado, donde las lenguas son puentes que acercan a las personas y enriquecen nuestras sociedades. Más allá de lo académico, aprender un idioma significa abrir una ventana hacia nuevas formas de pensar, tradiciones y maneras de vivir.</p>
+
+<div class="contenedor-imagenes">
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/31/CROSS-CULTURAL_LANGUAGE.jpg">
+</div>
+
+</section>
+
+<section id="Seccion1">
+<h2>¿Por qué es importante?</h2>
+<p> En Europa existen más de 200 lenguas propias, sin contar aquellas que han llegado gracias a las migraciones y la globalización. Cada lengua representa una identidad, una cultura y una forma de entender el mundo.
+Conocer idiomas no solo mejora las oportunidades profesionales y académicas, sino que también fortalece la empatía, el respeto y la cooperación entre personas de diferentes orígenes. La diversidad lingüística es un tesoro que debemos proteger, porque en cada palabra se esconde parte de nuestra historia común y nuestro futuro compartido.</p>
+
+</section>
+
+<section id="Seccion2">
+<h2>¿Cómo participar?</h2>
+<p> La mejor manera de participar en el Día Europeo de las Lenguas es animarse a aprender, compartir y experimentar con los idiomas. Muchas escuelas, bibliotecas y asociaciones culturales organizan talleres, juegos interactivos y actividades que promueven la comunicación en diferentes lenguas. También puedes empezar por pequeños gestos: aprender saludos básicos en un idioma nuevo, practicar con amigos, ver películas en versión original o descubrir la música de otros países. Cada palabra que aprendemos nos acerca</p>
+<form class="mt-4 p-4 bg-light border rounded shadow-sm">
+        <div class="mb-3">
+          <label for="nombre" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="nombre" placeholder="Introduce tu nombre">
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Correo electrónico</label>
+          <input type="email" class="form-control" id="email" placeholder="ejemplo@correo.com">
+        </div>
+        <div class="mb-3">
+          <label for="mensaje" class="form-label">Tu mensaje</label>
+          <textarea class="form-control" id="mensaje" rows="4" placeholder="Escribe tu mensaje aquí"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+
+</section>
+
+<section id="Seccion3">
+</section>
+
+		<footer>
+&copy; 2025 Día Europeo de las Lenguas
+
+
+		</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
